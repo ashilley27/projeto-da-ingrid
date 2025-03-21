@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversa com IA</title>
+    <title>Conversa com Zenny IA</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,4 +37,31 @@
             text-align: right;
         }
         .bot-message {
-            background
+            background-color: #fef9c3;
+        }
+        .message p {
+            margin: 0;
+            margin-left: 10px;
+        }
+        .bot-avatar, .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Mensagem do usuário -->
+        <div class="message user-message">
+            <p>Oi Zenny, quem é você?</p>
+            <img class="user-avatar" src="user-avatar.png" alt="Você">
+        </div>
+        <!-- Mensagem do Zenny IA -->
+        <div class="message bot-message">
+            <img class="bot-avatar" src="zenny-avatar.png" alt="Zenny IA">
+            <p>Oi! Sou o Zenny IA, um robô criado para conversar e ajudar você.</p>
+        </div>
+    </div>
+</body>
+</html>
