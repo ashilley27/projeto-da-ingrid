@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversa com Zenny IA</title>
+    <title>Conversa com Zenny</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #4f71af;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,7 +18,7 @@
         .chat-container {
             width: 50%;
             max-width: 600px;
-            background: #ffffff;
+            background: #f0dede;
             border: 2px solid #ccc;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -32,12 +32,12 @@
             align-items: center;
         }
         .user-message {
-            background-color: #d1e7dd;
+            background-color: #54eba7;
             justify-content: flex-end;
             text-align: right;
         }
         .bot-message {
-            background-color: #fef9c3;
+            background-color: #b8b489;
         }
         .message p {
             margin: 0;
@@ -54,13 +54,16 @@
     <div class="chat-container">
         <!-- Mensagem do usuário -->
         <div class="message user-message">
-            <p>Oi Zenny, quem é você?</p>
+            <p>Oi Zenny, estou sentindo muita vontade de fumar, estou em abstinência... o que eu faço agora?</p>
             <img class="user-avatar" src="user-avatar.png" alt="Você">
         </div>
         <!-- Mensagem do Zenny IA -->
         <div class="message bot-message">
             <img class="bot-avatar" src="zenny-avatar.png" alt="Zenny IA">
-            <p>Oi! Sou o Zenny IA, um robô criado para conversar e ajudar você.</p>
+            <p>Eu sei que a abstinência pode ser difícil, mas respira fundo, você está no caminho certo! Quando bater a vontade de fumar, 
+                tente dar uma pausa e se distrair com algo que te relaxe, como ouvir uma música, fazer um exercício rápido ou até mastigar
+                 um chiclete. Seu corpo vai se ajustar e, acredite, você vai se sentir muito melhor logo! Eu estou aqui para te apoiar! 💪😌
+                .</p>
         </div>
     </div>
 </body>
